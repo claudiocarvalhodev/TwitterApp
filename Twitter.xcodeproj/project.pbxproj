@@ -14,6 +14,10 @@
 		914E3A4F2433E27A00240C45 /* TwitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E3A4E2433E27A00240C45 /* TwitterTests.swift */; };
 		914E3A5A2433E27A00240C45 /* TwitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E3A592433E27A00240C45 /* TwitterUITests.swift */; };
 		914E3A6F2433E59500240C45 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E3A6E2433E59400240C45 /* MainTabBarViewController.swift */; };
+		914E3A722433EA4C00240C45 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E3A712433EA4C00240C45 /* FeedViewController.swift */; };
+		914E3A752433EB6000240C45 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E3A742433EB6000240C45 /* ExploreViewController.swift */; };
+		914E3A782433EC0400240C45 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E3A772433EC0400240C45 /* ConversationsViewController.swift */; };
+		914E3A7B2433EC5D00240C45 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E3A7A2433EC5D00240C45 /* NotificationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		914E3A592433E27A00240C45 /* TwitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUITests.swift; sourceTree = "<group>"; };
 		914E3A5B2433E27A00240C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		914E3A6E2433E59400240C45 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		914E3A712433EA4C00240C45 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		914E3A742433EB6000240C45 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		914E3A772433EC0400240C45 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		914E3A7A2433EC5D00240C45 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +169,10 @@
 			children = (
 				914E3A6C2433E3E800240C45 /* Launch Screen */,
 				914E3A6D2433E54400240C45 /* Main */,
+				914E3A702433EA1E00240C45 /* Feed */,
+				914E3A732433EB3800240C45 /* Explore */,
+				914E3A792433EC3E00240C45 /* Notifications */,
+				914E3A762433EBDF00240C45 /* Conversations */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -179,6 +191,38 @@
 				914E3A6E2433E59400240C45 /* MainTabBarViewController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		914E3A702433EA1E00240C45 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				914E3A712433EA4C00240C45 /* FeedViewController.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		914E3A732433EB3800240C45 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				914E3A742433EB6000240C45 /* ExploreViewController.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		914E3A762433EBDF00240C45 /* Conversations */ = {
+			isa = PBXGroup;
+			children = (
+				914E3A772433EC0400240C45 /* ConversationsViewController.swift */,
+			);
+			path = Conversations;
+			sourceTree = "<group>";
+		};
+		914E3A792433EC3E00240C45 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				914E3A7A2433EC5D00240C45 /* NotificationsViewController.swift */,
+			);
+			path = Notifications;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +357,10 @@
 			files = (
 				914E3A6F2433E59500240C45 /* MainTabBarViewController.swift in Sources */,
 				914E3A382433E27700240C45 /* AppDelegate.swift in Sources */,
+				914E3A752433EB6000240C45 /* ExploreViewController.swift in Sources */,
+				914E3A782433EC0400240C45 /* ConversationsViewController.swift in Sources */,
+				914E3A722433EA4C00240C45 /* FeedViewController.swift in Sources */,
+				914E3A7B2433EC5D00240C45 /* NotificationsViewController.swift in Sources */,
 				914E3A3A2433E27700240C45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
