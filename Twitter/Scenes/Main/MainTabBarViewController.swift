@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainTabBarViewController.swift
 //  Twitter
 //
 //  Created by Claudio Carvalho on 31/03/20.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainTabBarViewController: UITabBarController {
+    
+    // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        view.backgroundColor = .blue
     }
-
-
 }
-
