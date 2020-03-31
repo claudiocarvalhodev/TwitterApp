@@ -18,6 +18,8 @@
 		914E3A752433EB6000240C45 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E3A742433EB6000240C45 /* ExploreViewController.swift */; };
 		914E3A782433EC0400240C45 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E3A772433EC0400240C45 /* ConversationsViewController.swift */; };
 		914E3A7B2433EC5D00240C45 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E3A7A2433EC5D00240C45 /* NotificationsViewController.swift */; };
+		914E3A7F2433FA0A00240C45 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E3A7E2433FA0A00240C45 /* UIView+Extensions.swift */; };
+		914E3A812433FA3300240C45 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E3A802433FA3300240C45 /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		914E3A742433EB6000240C45 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		914E3A772433EC0400240C45 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		914E3A7A2433EC5D00240C45 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		914E3A7E2433FA0A00240C45 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		914E3A802433FA3300240C45 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,8 @@
 		914E3A692433E3BD00240C45 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				914E3A7C2433F9CC00240C45 /* Utils */,
+				914E3A7D2433F9F000240C45 /* Extensions */,
 				914E3A6A2433E3C400240C45 /* Images */,
 			);
 			path = Resources;
@@ -223,6 +229,22 @@
 				914E3A7A2433EC5D00240C45 /* NotificationsViewController.swift */,
 			);
 			path = Notifications;
+			sourceTree = "<group>";
+		};
+		914E3A7C2433F9CC00240C45 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		914E3A7D2433F9F000240C45 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				914E3A7E2433FA0A00240C45 /* UIView+Extensions.swift */,
+				914E3A802433FA3300240C45 /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,6 +383,8 @@
 				914E3A782433EC0400240C45 /* ConversationsViewController.swift in Sources */,
 				914E3A722433EA4C00240C45 /* FeedViewController.swift in Sources */,
 				914E3A7B2433EC5D00240C45 /* NotificationsViewController.swift in Sources */,
+				914E3A7F2433FA0A00240C45 /* UIView+Extensions.swift in Sources */,
+				914E3A812433FA3300240C45 /* UIColor+Extensions.swift in Sources */,
 				914E3A3A2433E27700240C45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
